@@ -1,6 +1,8 @@
 .botao {
   align-self: center;
-  background-color: #1abc9c;
+  background: #1488CC;  // Skyline
+  background: -webkit-linear-gradient(-255deg, #2B32B2, #1488CC);  
+  background: linear-gradient(to right, #2B32B2, #1488CC); 
   border-radius: 80px;
   box-shadow: 2px 4px 4px #0000009F;
   color: #ffffff;

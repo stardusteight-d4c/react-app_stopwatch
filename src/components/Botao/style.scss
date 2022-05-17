@@ -8,10 +8,12 @@
   font-size: 0.25rem;
   width: 80px;
   padding-top: 8px;
+  transition: 0.1s ease-in;
   
   &:active {
-    background-color: #7CA6B7;
-    box-shadow: 2px 2px 4px #0000009F inset;
+    background-color: transparent;
+    box-shadow: 2px 2px 4px #000000 inset;
+    transition: 0.1s ease-out;
   }
 }
 

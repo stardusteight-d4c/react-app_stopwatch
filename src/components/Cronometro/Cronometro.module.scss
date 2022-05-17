@@ -7,7 +7,6 @@
   .relogioWrapper {
     align-items: center;
     background: linear-gradient(to right, #414345, #232526);
-    border-radius: 4px;
     box-shadow: 2px 4px 4px #0000009F;
     box-sizing: border-box;
     display: flex;
@@ -19,13 +18,20 @@
   }
 
   .titulo {
-    font-size: 2rem;
+    font-size: 1.75rem;
+    padding: 10px;
+    text-align: center;
   }
 
   @media screen and (min-width:1280px) {
     
     .relogioWrapper{
       font-size: 15rem;
+      border-radius: 4px;
+    }
+
+    .titulo {
+      font-size: 2rem;
     }
 
     p {

@@ -5,7 +5,6 @@
   background: #232526;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-radius: 4px;
   box-shadow: 2px 4px 4px #0000009F;
   padding: 12px;
 
@@ -22,6 +21,7 @@
 
     input {
       width: 100%;
+      height: 40px;
       padding: 8px 12px 4px;
       box-sizing: border-box;
       border: unset;
@@ -42,6 +42,7 @@
     font-size: 2.25rem;
     padding: 24px;
     box-sizing: border-box;
+    border-radius: 4px;
 
     .inputContainer {
       width: calc(60% - 12px);

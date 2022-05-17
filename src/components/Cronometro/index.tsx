@@ -11,7 +11,7 @@ export default function Cronometro() {
         <Relogio />
       </div>
       <Botao>
-        start!
+        iniciar
       </Botao>
     </div>
   )

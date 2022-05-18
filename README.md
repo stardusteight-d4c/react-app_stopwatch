@@ -2,11 +2,23 @@
 
 ![demo](demo.png)
 
+## Create React App 
+
+Create React App is a comfortable environment to learn React, and it's the best way to start a single-page application in React.
+<br>
+In addition to configuring your development environment to use the latest JavaScript functionality, it provides a pleasant development experience and optimizes your app for production. You will need to have `Node >= 14.0.0` and `npm >= 5.6` on your machine. To create a new project, run:
+
+#### `npx create-react-app my-app`
+#### `cd my-app`
+#### `npm start`
+
+Source: [React](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
+
 ## How to run?
 - Download the project.
 - In the file directory run:
-### `npm install`
-### `npm start`
+#### `npm install`
+#### `npm start`
 
 ## Topics covered
 
